@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string-array name="NamesForJobs">
+        <item>Available | Hey Let Us Connect</item>
+        <item>Away | Stay Discreet And Watch</item>
+        <item>Busy | Do Not Disturb</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable-v24/4dot.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable-v24/ic_dot.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable/button.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable/button_curve.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable/button_selector_effect.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable/curve_shap.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable/custom_progress.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable/heart.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/drawable/whitecolor.xml" value="0.1955" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/layout/activity_explore.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/NetclanExplorer/app/src/main/res/layout/cusom_explore.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

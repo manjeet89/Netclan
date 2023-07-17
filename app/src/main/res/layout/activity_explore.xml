@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Explore"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:background="#143b59"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_notes_24"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:drawableStart="@drawable/ic_baseline_keyboard_arrow_left_24"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="60dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explore"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="15dp"
+                    android:textSize="50dp"
+                    android:src="@drawable/ic_baseline_location_on_24"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Indore"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/nextpage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/refine"/>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:text="  Choose Category"
+            android:padding="7dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:drawableStart="@drawable/ic_baseline_dashboard_24"
+            android:filterTouchesWhenObscured="true"
+            android:queryBackground="@android:color/transparent"
+            app:queryBackground="@null"
+            android:background="@drawable/whitecolor"
+            android:iconifiedByDefault="false"
+            android:layout_alignParentTop="true"
+            />
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_margin="15dp"
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:queryHint="Job Title"
+            android:hint="Job Title"
+            android:filterTouchesWhenObscured="true"
+            android:queryBackground="@android:color/transparent"
+            app:queryBackground="@null"
+            android:background="@drawable/whitecolor"
+            android:iconifiedByDefault="false"
+            android:layout_alignParentTop="true"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycleview"
+            android:layout_margin="0dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
